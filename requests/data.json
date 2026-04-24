@@ -1,41 +1,27 @@
 {
-  "request_id": "aditya-det-20260424175400",
-  "submitted_at": "2026-04-24T17:54:00.369062+00:00",
-  "slack": {
-    "user_id": "U07RPT0L5M1",
-    "username": "aditya.jha",
-    "name": "aditya.jha"
-  },
-  "intake": {
-    "project_name": "Aditya",
-    "project_slug": "aditya",
-    "project_upper": "ADITYA",
-    "environments": [
-      "Dev"
-    ],
-    "regions": [
-      "us-east-1"
-    ],
-    "vpc_model": "Big",
-    "service_name": "Aditya",
-    "business_justification": "Aditya POC",
-    "members_slack_ids": [
-      "U07RPT0L5M1"
-    ],
-    "team_dl": "adi@salesforce.com"
-  },
+  "request_id": "github-dev",
   "aft": {
+    "control_tower_parameters": {
+      "AccountEmail": "abc@example.com",
+      "AccountName": "Github Dev",
+      "ManagedOrganizationalUnit": "Dev (ou-1234567890)",
+      "SSOUserEmail": "abc@salesforce.com",
+      "SSOUserFirstName": "Abc",
+      "SSOUserLastName": "Examp e"
+    },
     "custom_fields": {
-      "github_actions_subject_patterns": [],
+      "github_actions_subject_patterns": [
+        "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
+      ],
       "enable_private_dns_rfc": true,
-      "project_name": "aditya",
-      "terraform_cloud_project": "Aditya",
+      "project_name": "github",
+      "terraform_cloud_project": "Github",
       "region": "us-east-1",
       "vpc_size": "big"
     },
     "change_management_parameters": {
       "change_requested_by": "aditya.jha",
-      "change_reason": "Aditya POC"
+      "change_reason": "github proj poc"
     }
   }
 }
