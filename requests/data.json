@@ -1,11 +1,11 @@
 {
-  "request_id": "github-dev",
+  "request_id": "test2-qa",
   "aft": {
     "control_tower_parameters": {
       "AccountEmail": "abc@example.com",
-      "AccountName": "Github Dev",
-      "ManagedOrganizationalUnit": "Dev (ou-1234567890)",
-      "SSOUserEmail": "abc@salesforce.com",
+      "AccountName": "Test2 QA",
+      "ManagedOrganizationalUnit": "QA (ou-1234567890)",
+      "SSOUserEmail": "Abc@example.com",
       "SSOUserFirstName": "Abc",
       "SSOUserLastName": "Examp e"
     },
@@ -14,14 +14,14 @@
         "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
       ],
       "enable_private_dns_rfc": true,
-      "project_name": "github",
-      "terraform_cloud_project": "Github",
+      "project_name": "test2",
+      "terraform_cloud_project": "Test2",
       "region": "us-east-1",
       "vpc_size": "big"
     },
     "change_management_parameters": {
       "change_requested_by": "aditya.jha",
-      "change_reason": "github proj poc"
+      "change_reason": "Test2"
     }
   }
 }
