@@ -1,27 +1,27 @@
 {
-  "request_id": "github-dev",
+  "request_id": "adi-poc1-dev",
   "aft": {
     "control_tower_parameters": {
       "AccountEmail": "abc@example.com",
-      "AccountName": "Github Dev",
+      "AccountName": "adi-poc1 Dev",
       "ManagedOrganizationalUnit": "Dev (ou-1234567890)",
-      "SSOUserEmail": "abc@salesforce.com",
-      "SSOUserFirstName": "Abc",
-      "SSOUserLastName": "Examp e"
+      "SSOUserEmail": "ems-team@example.com",
+      "SSOUserFirstName": "Aditya",
+      "SSOUserLastName": "jha"
     },
     "custom_fields": {
       "github_actions_subject_patterns": [
         "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
       ],
       "enable_private_dns_rfc": true,
-      "project_name": "github",
-      "terraform_cloud_project": "Github",
+      "project_name": "adi-poc1",
+      "terraform_cloud_project": "adi-poc1",
       "region": "us-east-1",
-      "vpc_size": "big"
+      "vpc_size": "small"
     },
     "change_management_parameters": {
       "change_requested_by": "aditya.jha",
-      "change_reason": "github proj poc"
+      "change_reason": "because this is for a new workload"
     }
   }
 }
