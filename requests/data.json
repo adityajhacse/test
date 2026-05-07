@@ -1,27 +1,27 @@
 {
-  "request_id": "github-dev",
+  "request_id": "github-branch-dev",
   "aft": {
     "control_tower_parameters": {
       "AccountEmail": "abc@example.com",
-      "AccountName": "Github Dev",
+      "AccountName": "github-branch Dev",
       "ManagedOrganizationalUnit": "Dev (ou-1234567890)",
-      "SSOUserEmail": "abc@salesforce.com",
-      "SSOUserFirstName": "Abc",
-      "SSOUserLastName": "Examp e"
+      "SSOUserEmail": "aditya.jha@salesforce.com",
+      "SSOUserFirstName": "Aditya",
+      "SSOUserLastName": "jha"
     },
     "custom_fields": {
       "github_actions_subject_patterns": [
         "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
       ],
       "enable_private_dns_rfc": true,
-      "project_name": "github",
-      "terraform_cloud_project": "Github",
+      "project_name": "github-branch",
+      "terraform_cloud_project": "github-branch",
       "region": "us-east-1",
-      "vpc_size": "big"
+      "vpc_size": "medium"
     },
     "change_management_parameters": {
       "change_requested_by": "aditya.jha",
-      "change_reason": "github proj poc"
+      "change_reason": "github-branch poc"
     }
   }
 }
