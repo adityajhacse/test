@@ -1,0 +1,27 @@
+{
+  "request_id": "dev12-prod",
+  "aft": {
+    "control_tower_parameters": {
+      "AccountEmail": "abc@example.com",
+      "AccountName": "dev12 Prod",
+      "ManagedOrganizationalUnit": "Prod (ou-1234567890)",
+      "SSOUserEmail": "as@salesforce.com",
+      "SSOUserFirstName": "Aditya",
+      "SSOUserLastName": "jha"
+    },
+    "custom_fields": {
+      "github_actions_subject_patterns": [
+        "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
+      ],
+      "enable_private_dns_rfc": true,
+      "project_name": "dev12",
+      "terraform_cloud_project": "dev12",
+      "region": "us-west-2",
+      "vpc_size": "medium"
+    },
+    "change_management_parameters": {
+      "change_requested_by": "U07RPT0L5M1",
+      "change_reason": "dev12"
+    }
+  }
+}
