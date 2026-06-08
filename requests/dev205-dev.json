@@ -1,0 +1,27 @@
+{
+  "request_id": "dev205-dev",
+  "aft": {
+    "control_tower_parameters": {
+      "AccountEmail": "abc@example.com",
+      "AccountName": "Dev205 Dev",
+      "ManagedOrganizationalUnit": "Dev (ou-1234567890)",
+      "SSOUserEmail": "ems-team@example.com",
+      "SSOUserFirstName": "Aditya",
+      "SSOUserLastName": "jha"
+    },
+    "custom_fields": {
+      "github_actions_subject_patterns": [
+        "repo:SF-BT-NonProd/edd-platform-aws-sample-lambda:ref:refs/heads/main"
+      ],
+      "enable_private_dns_rfc": true,
+      "project_name": "dev205",
+      "terraform_cloud_project": "Dev205",
+      "region": "us-east-1",
+      "vpc_size": "small"
+    },
+    "change_management_parameters": {
+      "change_requested_by": "U07RPT0L5M1",
+      "change_reason": "because this is for a new workload"
+    }
+  }
+}
